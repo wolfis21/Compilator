@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body{
+    background-color: #0E0B16;
+}
+
+.header{
+    padding: 15px;
+    margin: .1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.header .logo{
+    margin-left: 2%;
+}
+
+.header .nav{
+    margin-right: 2%;
+}
+
+.header .nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 0 15px;
+}
+
+.header .nav i{
+    padding: 0 6px;
+}
+
+/* Section */
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 75vh;
+}
+
+.row .sectionIzq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.row .sectionIzq h3{
+    color: #fff;
+    font-size: 45px;
+    align-content: center;
+    text-align: justify;
+    margin-left: 18%;
+    padding: 15px 0 30px;
+}
+
+.row .sectionIzq .botonMasInformacion{
+    width: 200px;
+    height: 45px;
+    font-size: 19px;
+    border-radius: 30px;
+    margin-left: 26%;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    /*background: linear-gradient(90deg,#AB00B9,30%,#E20053);*/
+}
+
+
+.botonMasInformacion:hover{
+    background: #E20053;
+    box-shadow: 0 0 10px #E20053, 0 0 20px #E20053 , 0 0 40px #E20053;
+    transition-delay: 1s;
+}
+
+.row .sectionDer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.row .sectionDer i.atras{
+    color: #105B16;
+    font-size: 400px;
+    position: relative;
+    border: none;
+    outline: none;
+}
+
+.row .sectionDer i.adelante{
+    position: absolute;
+    color: rgb(226,0,83);
+    font-size: 300px;
+    top: 25%;
+    left: -15%;
+    
+}
+
+/* footer */
+
+.footer{
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer .tituloSeccion{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding: 0px 15px;    
+}
+
+.footer .redesSociales{
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.boton{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    padding: 15px;
+}
